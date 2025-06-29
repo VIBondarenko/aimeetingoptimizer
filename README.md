@@ -3,7 +3,7 @@
 # AI Meeting Optimizer
 
 ![Java](https://img.shields.io/badge/Java-8+-orange)
-![License](https://img.shields.io/github/license/VIBondarenko/aimeetingoptimizer)
+[![License](https://img.shields.io/badge/license-Non--Commercial--Only-blue)](./License.md)
 ![Status](https://img.shields.io/badge/status-commercial-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/VIBondarenko/aimeetingoptimizer)
 
