@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en" data-bs-theme="auto">
+<head>
+  <div th:insert="~{parts/head :: head}"></div>
+  <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+  <title>Sign Up - CodeJava</title>
+</head>
+<body>
+<div th:insert="~{parts/socialsvg :: socialsvg}"></div>
+<main>
+  <div th:insert="~{parts/headermenu :: headermenu}"></div>
+
+  <div class="container text-center">
+    <div>
+      <h2>User Registration - Sign Up</h2>
+    </div>
+    <form th:action="@{/process_register}" th:object="${user}"
+          method="post" style="max-width: 600px; margin: 0 auto;">
+      <div class="m-3">
+        <div class="form-group row">
+          <label class="col-4 col-form-label">E-mail: </label>
+          <div class="col-8">
+            <input type="email" th:field="*{email}" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-4 col-form-label">Password: </label>
+          <div class="col-8">
+            <input type="password" th:field="*{password}" class="form-control"
+                   required minlength="6" maxlength="10"/>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-4 col-form-label">First Name: </label>
+          <div class="col-8">
+            <input type="text" th:field="*{firstName}" class="form-control"
+                   required minlength="2" maxlength="20"/>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-4 col-form-label">Last Name: </label>
+          <div class="col-8">
+            <input type="text" th:field="*{lastName}" class="form-control" required minlength="2" maxlength="20" />
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div th:insert="~{parts/footer :: footer}"></div>
+</main>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: "AIMeetingOptimizer"
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/meetings_db
+    username: <name>
+    password: <password>
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+  thymeleaf:
+    cache: true
+
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+
+planners:
+  jira:
+    url: "https://<username>.atlassian.net"
+    token: "your_jira_api_token"
+  trello:
+    api_key: "your_trello_api_key"
+  notion:
+    token: "your_notion_api_token"
+  asana:
+    token: "your_asana_api_token"
+
+videoconferencing:
+  zoom:
+    api_key: "your_zoom_api_key"
+    api_secret: "your_zoom_api_secret"
+
+  google_meet:
+    client_id: "your_google_client_id"
+    client_secret: "your_google_client_secret"
+    redirect_uri: "http://localhost:8080/oauth2/callback/google"
+
+  microsoft_teams:
+    client_id: "your_microsoft_client_id"
+    client_secret: "your_microsoft_client_secret"
+    redirect_uri: "http://localhost:8080/oauth2/callback/microsoft"

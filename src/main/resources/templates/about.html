@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en" data-bs-theme="auto">
+<head>
+    <div th:insert="~{parts/head :: head}"></div>
+    <title>Welcome to Main Page</title>
+</head>
+<body>
+    <div th:insert="~{parts/socialsvg :: socialsvg}"></div>
+    <main>
+        <div th:insert="~{parts/headermenu :: headermenu}"></div>
+        <div class="container text-center">
+            <h2>About</h2>
+        </div>
+        <div th:insert="~{parts/footer :: footer}"></div>
+    </main>
+</body>
+</html>
