@@ -1,5 +1,7 @@
 # ===UNDER RECONSTRUCTION===
 
+![alt text](<AI Meeting Optimizer_005.png>)
+
 # AI Meeting Optimizer
 
 ![Java](https://img.shields.io/badge/Java-8+-orange)
