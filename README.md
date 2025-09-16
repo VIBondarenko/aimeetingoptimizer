@@ -22,9 +22,10 @@
 
 ## 🧩 Notes
 
-- 
+- The project is currently under active development. The architecture and implementation details are being refined.
 
 ## 📬 Feedback
 
 Author: [Vitaliy Bondarenko](https://github.com/VIBondarenko)  
 Feel free to open issues for discussions, suggestions, or questions!
+Email: [vibondarenko@gmail.com](mailto:vibondarenko@gmail.com)
