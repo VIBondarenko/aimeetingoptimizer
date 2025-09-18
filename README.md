@@ -10,20 +10,15 @@
 
 > ⚠️ The project is under active development. Many features are not yet implemented or are still in progress ⚠️
 
-📘 **AI Meeting Optimizer** is an intelligent service that integrates with Zoom, Google Meet, or Microsoft Teams to automatically record, transcribe, and analyze meetings. It performs real-time speech recognition, extracts key points, tasks, deadlines, and participant names, and creates actionable items in tools like Jira or Trello. The system also evaluates participant engagement and productivity, generating detailed summaries
+📘 **AI Meeting Optimizer** is an intelligent service that ...
 
 ## 🎓 Implemented Features
 
-- 📚 .
-- 👨‍🎓 .
-- 🧑‍🏫 .
-- 📝 .
-- 📄 .
-- 💾 .
+> ⚠️ The project is under active development. Many features are not yet implemented or are still in progress ⚠️
 
 ## 🧩 Notes
 
-- The project is currently under active development. The architecture and implementation details are being refined.
+> ⚠️ The project is under active development. Many features are not yet implemented or are still in progress ⚠️
 
 ## 📬 Feedback
 
