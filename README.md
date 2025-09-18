@@ -1,13 +1,14 @@
-# ===UNDER RECONSTRUCTION===
+# ![alt text](<readmemainimage.png>)
 
-![alt text](<AI Meeting Optimizer_005.png>)
+## AI Meeting Optimizer
 
-# AI Meeting Optimizer
-
-![Java](https://img.shields.io/badge/Java-21+-orange)
-[![License](https://img.shields.io/badge/license-Non--Commercial--Only-blue)](./LICENSE)
-![Status](https://img.shields.io/badge/status-commercial-blue)
+![Java](https://img.shields.io/badge/Java-21-orange)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.5-brightgreen)](https://spring.io/projects/spring-boot)
+[![License](https://img.shields.io/github/license/VIBondarenko/aimeetingoptimizer)](./LICENSE)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![GitHub last commit](https://img.shields.io/github/last-commit/VIBondarenko/aimeetingoptimizer)
+
+> ⚠️ The project is under active development. Many features are not yet implemented or are still in progress ⚠️
 
 📘 **AI Meeting Optimizer** is an intelligent service that integrates with Zoom, Google Meet, or Microsoft Teams to automatically record, transcribe, and analyze meetings. It performs real-time speech recognition, extracts key points, tasks, deadlines, and participant names, and creates actionable items in tools like Jira or Trello. The system also evaluates participant engagement and productivity, generating detailed summaries
 
