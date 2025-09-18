@@ -1,4 +1,4 @@
-# ![alt text](<readmemainimage.png)>
+# ![alt text](readmemainimage.png)
 
 ## AI Meeting Optimizer
 
